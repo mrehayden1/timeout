@@ -12,7 +12,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "@cycle/dom": "^20.4.0",
+    "@cycle/dom": "^21.1.0",
     "@cycle/http": "^14.10.0",
     "snabbdom-pragma": "^2.7.0",
     "xstream": "^11.7.0"
