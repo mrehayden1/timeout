@@ -1,13 +1,17 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "allowJs": true,
+    "module": "ES6",
+    "moduleResolution": "node",
+    "target": "ES5",
+    "sourceMap": true,
     "jsx": "react",
     "jsxFactory": "Snabbdom.createElement",
-    "module": "es6",
-    "moduleResolution": "node",
-    "sourceMap": true,
+    "noImplicitReturns": true,
     "strict": true,
-    "target": "es6"
+    "strictFunctionTypes": false,
+    "allowJs": true,
+    "lib": ["ES6", "ES5", "DOM"]
   },
-  "exclude": [ "node_modules" ]
+  "exclude": ["node_modules"]
 }
